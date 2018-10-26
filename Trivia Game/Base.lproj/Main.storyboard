@@ -53,7 +53,7 @@
                                             <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="60" id="zLO-KE-XcS"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
-                                        <state key="normal" title="Play">
+                                        <state key="normal" title="Nah">
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <userDefinedRuntimeAttributes>

@@ -57,7 +57,10 @@ class QuizViewController: UIViewController {
         let question2 = TriviaQuestion(question: "What is NOT a common type of cake?", answers: ["Potato Cake", "Blackberry Cake", "Banana Cake", "Strawberry Cake"], correctAnswerIndex: 2)
         let question3 = TriviaQuestion(question: "What is the best type of cookie?", answers: ["Chocolate Chip", "Sugar Cookie", "Snickerdoodle", "All cookies are best cookies"], correctAnswerIndex: 3)
         let question4 = TriviaQuestion(question: "What breakfast cereal was Sonny the Cuckoo Bird 'cuckoo for'?", answers: ["Trix", "Cocoa Puffs", "Fruit Loops", "Cocoa Pebbles"], correctAnswerIndex: 1)
-        questions = [question1, question2, question3, question4]
+        let question5 = TriviaQuestion(question: "What is the most widely eaten fish in the world?", answers: ["Catfish", "Herring", "Salmon", "Tuna"], correctAnswerIndex: 1)
+        let question6 = TriviaQuestion(question: "What animals milk is used to make authentic Italian mozzarella cheese?", answers: ["A cow", "A goat", "A water buffalo", "An elephant"], correctAnswerIndex: 2)
+        let question7 = TriviaQuestion(question: "What is the literal meaning of the Italian word linguine?", answers: ["Little tongues", "Long string", "Thick noodle", "A string"], correctAnswerIndex: 0)
+        questions = [question1, question2, question3, question4, question5, question6, question7]
     }
     
     func getNewQuestion() {
